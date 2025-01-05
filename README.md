@@ -1,6 +1,7 @@
 ![JakeBay Logo](public/logo.png)
 
-![](public/Screen20%Recording20%2025-01-0420%at20%01.51.54.gif)
+![](public/demo.gif)
+
 
 # Yung Jake Archive Site Concept
 

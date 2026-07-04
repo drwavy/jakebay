@@ -60,4 +60,45 @@ Reference Image, a screenshot of eBay's old website ![Old eBay Homepage](public/
     - Layout is managed using CSS grid for responsiveness across devices.
 
 4. Custom Branding
-    - The custom "JakeBay" logo was created in Photoshop as a play on the eBay branding.
+    - I made the "JakeBay" logo in Photoshop as a play on the eBay branding.
+
+## Setup and Run
+
+### Prerequisites
+- Node.js 18+ and npm
+- Git
+- Git LFS (required for media assets in this repo)
+
+### Clone and Install
+```bash
+git clone git@github.com:drwavy/jakebay.git
+cd jakebay
+git lfs install
+git lfs pull
+npm install
+```
+
+### Run Locally
+```bash
+npm start
+```
+
+The app starts in development mode and is usually available at:
+- http://localhost:3000
+
+### Build for Production
+```bash
+npm run build
+```
+
+This creates an optimized build in the `build/` directory.
+
+### Run Tests
+```bash
+npm test
+```
+
+### Useful Notes
+- Archive data is loaded from `public/Yung_Jake_Archive.json`.
+- If images/GIFs are missing after clone or pull, run `git lfs pull` again.
+- `build/` and `node_modules/` are intentionally excluded from version control.
